@@ -1,0 +1,9 @@
+mysql-connector-python==8.0.33
+oracledb==1.4.1
+psycopg2-binary==2.9.9
+pycryptodomex==3.18.0
+pydantic==2.5.2
+pymysql==1.0.3
+python-dotenv==1.0.0
+requests==2.31.0
+google-cloud-bigquery==3.21.0

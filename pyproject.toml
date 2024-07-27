@@ -1,0 +1,27 @@
+[project]
+name = "datalynxml"
+version = "0.7.9"
+dependencies = [
+  "anthropic>=0.19.1",
+  "boto3>=1.16.0",
+  "google-cloud-bigquery>=3.21.0",
+  "langchain>=0.1.20",
+  "langchain-openai>=0.1.6",
+  "mysql-connector-python>=8.0.33",
+  "numpy>=1.21.5",
+  "openai>=1.29.0",
+  "oracledb>=1.4.1",
+  "psycopg2-binary>=2.9.9",
+  "pycryptodomex>=3.18.0",
+  "pydantic>=2.5.2",
+  "pymysql>=1.0.3",
+  "pytest>=7.4.3",
+  "python-dotenv>=1.0.0",
+  "requests>=2.31.0",
+  "tenacity>=8.2.3",
+  "tiktoken>=0.4.0",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
